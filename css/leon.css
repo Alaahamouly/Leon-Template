@@ -20,6 +20,10 @@
     box-sizing: border-box;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     font-family: 'Work Sans', sans-serif;
 }
@@ -552,3 +556,41 @@ body {
 
 
 /* End Footer */
+
+
+/* Start ScrollTop Button */
+
+#scroll-top {
+    width: 50px;
+    height: 50px;
+    color: #fff;
+    background-color: var(--secondary-color);
+    text-align: center;
+    padding-top: 6px;
+    position: fixed;
+    right: 25px;
+    bottom: 100px;
+    z-index: 9999;
+    display: none;
+    cursor: pointer;
+    opacity: 0.8;
+    border-radius: 50px;
+}
+
+#scroll-top i {
+    line-height: 1.2;
+}
+
+@media (max-width: 768px) {
+    #scroll-top {
+        bottom: 95px;
+        right: 35px;
+    }
+}
+
+#scroll-top:hover {
+    background-color: var(--main-color);
+}
+
+
+/* End ScrollTop Button */
