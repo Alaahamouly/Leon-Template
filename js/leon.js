@@ -9,6 +9,6 @@ $(window).scroll(function() {
 // Click on Button to Scroll top
 
 scrollButton.on('click', function() {
-    $("html,body").animate({ scrollTop: 0 }, 0);
+    $("html,body").animate({ scrollTop: 0 }, 0c xcvazc);
     return false;
 });
